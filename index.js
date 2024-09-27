@@ -22,4 +22,4 @@ function returnsAnAnonymousFunction() {
     return () => 'MAGIC!'
 
 }
-console.log(returnsAnAnonymousFunction())
+console.log(returnsAnAnonymousFunction()())
